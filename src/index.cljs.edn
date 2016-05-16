@@ -1,0 +1,5 @@
+{:require [sablono-conditional-bug.app]
+ :compiler-options {:optimizations :advanced
+                    ;; These are left on to aid debugging
+                    :pretty-print true
+                    :pseudo-names true}}
