@@ -24,4 +24,4 @@
 (om/root widget
          {}
          {:target (. js/document (getElementById "app-container"))
-          :shared {:foo "mi estas akcia stato"}})
+          :shared {:foo "mi estas dividita stato"}})
