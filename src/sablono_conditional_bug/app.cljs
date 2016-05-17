@@ -16,7 +16,7 @@
     om/IRender
     (render [_]
       (html [:div
-             (if (= [1 2 3] (vec (range 1 4)))
+             (if true
                (for [n (range 1 4)]
                  (om/build objekto (assoc data :n n) {:key :n}))
                [:h1 "vi estas konfuza"])]))))
